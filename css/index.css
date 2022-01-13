@@ -1,0 +1,174 @@
+/*Estilos de título, párrafo y tipografía*/
+
+.containerBox {
+  position: relative;
+  display: inline-block;
+
+}
+.text-box {
+  position: absolute;    
+  height: 100%;
+  text-align: center;    
+  width: 100%;
+}
+.text-box:before {
+ content: '';
+ display: inline-block;
+ height: 100%;
+ vertical-align: middle;
+ 
+}
+h1 {
+ display: inline-block;
+ font-size: 80px;
+color: #1c1c1c;
+font-family: 'Kaushan Script';   
+}
+img {
+display: block;
+max-width: 100% ;
+height: auto;
+margin-right: 100px;
+z-index: 0}
+
+h1{font-size: 80px;
+color: #1c1c1c;
+font-family: 'Kaushan Script';
+}
+
+h2{font-size: 40px;
+    color: #1c1c1c;
+    font-family: 'Bebas Neue';
+    text-align: left;
+}
+
+
+h3{font-size: 30px;
+    color: #1c1c1c;
+    font-family: 'Bebas Neue';
+    }
+
+
+p{font-size: 20px;
+    color: #1c1c1c;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    }
+
+
+
+a{font-size: 20px;
+    color: #1c1c1c;
+    font-family: 'Roboto Slab', serif;
+    
+text-align: center;}
+
+/*Estilo tablas*/
+table {font-size: 20px;
+    color: #1c1c1c;
+    font-family: 'Roboto Slab', serif;
+    }
+
+td {
+        border-bottom: 1px solid #1c1c1c;
+        border-right: 1px solid #1c1c1c;
+    }
+    
+    td.select {
+        border: none;
+    }/*Estilo header*/
+
+.header{position: relative;
+display: inline-block;
+text-align: center;}
+
+.titulo1{position: absolute;
+top: 300px;
+left: 50%;
+font-size: 80px;
+transform:translate(-50%,-50%);
+color: #1c1c1c;
+font-family: 'Kaushan Script';}
+
+.subtitulo1{position: absolute;
+top: 60%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: #1c1c1c;
+font-family: 'Bebas Neue';}
+
+/*Menú de navegación*/
+
+
+nav li{
+display: inline-block;
+width: 15%;
+padding: 50px, 50px;
+background-color: white;
+text-align: center;
+
+text-decoration: none;}
+
+body {
+    margin: 50px;
+    padding: 50px;
+}
+
+div maincontainer {
+    margin: 0 auto;
+    width: ___px;
+    text-align: center;
+}
+.menu{
+    width: 100%;
+}
+/*Estilo enlaces*/
+a {
+    outline: none;
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: #1c1c1c;
+  }
+  
+  a:visited {
+    color: #1c1c1c;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    color: #660019;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid ;
+    color: #660019;
+  }
+  
+  a:active {
+    color: #660019;
+  }
+
+ li#search::marker {display: none;}
+
+ #legal {font-size: 15px;
+  color: #1c1c1c;
+  font-family: 'Roboto Slab', serif;}
+/*Para quitar el punto del buscador*/
+#search {list-style: none;}
+.buscador {font-size: 15px;
+  color: #1c1c1c;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;}
+
+.celform{font-size: 15px;
+  color: #1c1c1c;
+  font-family: 'Roboto Slab', serif;
+  text-align: left;}
+
+
+ 
+
+
+
