@@ -1,3 +1,6 @@
+html, body {margin:0 auto;
+}
+
 /*Estilos de título, párrafo y tipografía*/
 
 .containerBox {
@@ -24,12 +27,7 @@ h1 {
 color: #1c1c1c;
 font-family: 'Kaushan Script';   
 }
-img {
-display: block;
-max-width: 100% ;
-height: auto;
-margin-right: 100px;
-z-index: 0}
+
 
 h1{font-size: 80px;
 color: #1c1c1c;
